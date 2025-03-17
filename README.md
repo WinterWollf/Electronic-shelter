@@ -1,4 +1,6 @@
-## Overview
+# Shelter Management Application
+
+## Description
 
 The Electronic Shelter Management System is a JavaFX-based application designed to manage animal shelters. It provides functionalities for both administrators and users to manage shelters and animals efficiently. The application includes features such as user authentication, shelter/animal management, and data filtering/sorting.
 

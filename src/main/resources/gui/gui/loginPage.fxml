@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" maxHeight="800.0" maxWidth="1000.0" minHeight="800.0" minWidth="1000.0" prefHeight="800.0" prefWidth="1000.0" spacing="20.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.gui.LoginController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+    <children>
+        <AnchorPane maxHeight="800.0" maxWidth="1000.0" minHeight="800.0" minWidth="1000.0" prefHeight="800.0" prefWidth="1000.0">
+            <children>
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#118a56" height="800.0" stroke="#118a56" strokeType="INSIDE" width="1000.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00693c" height="700.0" layoutX="50.0" layoutY="50.0" pickOnBounds="true" stroke="#00693c" strokeType="INSIDE" width="900.0" />
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="509.0" layoutX="112.0" layoutY="146.0" stroke="WHITE" strokeType="INSIDE" width="341.0" />
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="215.0" layoutY="230.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Assets/LoginPage/image_3.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="322.0" fitWidth="350.0" layoutX="547.0" layoutY="239.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Assets/LoginPage/image_4.png" />
+               </image>
+            </ImageView>
+                <Button alignment="CENTER" contentDisplay="CENTER" layoutX="187.0" layoutY="572.0" mnemonicParsing="false" onAction="#onLoginButtonClick" prefHeight="45.0" prefWidth="191.0" style="-fx-background-color: #A71930;" text="Login" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="21.0" />
+               </font></Button>
+                <TextField fx:id="usernameField" layoutX="128.0" layoutY="430.0" prefHeight="47.0" prefWidth="309.0">
+                    <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" offsetX="2.0" offsetY="2.0" />
+                    </effect>
+                    <opaqueInsets>
+                        <Insets />
+                    </opaqueInsets></TextField>
+                <PasswordField fx:id="passwordField" layoutX="128.0" layoutY="491.0" prefHeight="47.0" prefWidth="309.0">
+                    <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" offsetX="2.0" offsetY="2.0" />
+                    </effect></PasswordField>
+                <Label alignment="CENTER" contentDisplay="CENTER" layoutX="115.0" layoutY="154.0" prefHeight="76.0" prefWidth="335.0" style="-fx-font-family: Inter; -fx-font-weight: 600;" text="Electronic Shelter" textAlignment="CENTER">
+                    <font>
+                        <Font name="Candara Light" size="36.0" />
+                    </font></Label>
+                <Label layoutX="128.0" layoutY="408.0" style="-fx-font-family: Inter;" text="Login to your account" textFill="#00693c">
+                    <font>
+                        <Font name="Arial Bold" size="12.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+    </children>
+</VBox>

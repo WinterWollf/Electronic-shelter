@@ -1,0 +1,72 @@
+/* Ogólne stylizacje */
+.root {
+    -fx-font-family: "Inter", sans-serif;
+    -fx-font-size: 14px;
+    -fx-background-color: #f4f4f9;
+}
+
+.label {
+    -fx-text-fill: #333;
+    -fx-font-weight: bold;
+}
+
+.table-view {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #dddddd;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-table-cell-border-color: transparent;
+    -fx-table-header-border-color: transparent;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #118a56;
+}
+
+.table-view .column-header {
+    -fx-background-color: #118a56;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.table-view .table-row-cell:odd {
+    -fx-background-color: #f7f7f7;
+}
+
+.table-view .table-row-cell:even {
+    -fx-background-color: #ffffff;
+}
+
+.table-view .table-row-cell:selected {
+    -fx-background-color: #c8e6c9;
+    -fx-text-fill: #333;
+}
+
+.table-view .table-cell {
+    -fx-padding: 10px;
+    -fx-text-fill: #333;
+    -fx-font-size: 14px;
+    -fx-alignment: CENTER;
+}
+
+.table-view .table-cell:selected {
+    -fx-background-color: #66bb6a;
+    -fx-text-fill: white;
+}
+
+/* Przycisk stylizowany */
+.button {
+    -fx-background-color: #118a56;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+    -fx-background-radius: 5px;
+}
+
+.button:hover {
+    -fx-background-color: #0f7d4d;
+}
+
+.button:pressed {
+    -fx-background-color: #0c5f3c;
+}

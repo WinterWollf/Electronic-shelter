@@ -100,6 +100,8 @@ mvn test
 
 ## Screenshots
 
+Here are some screenshots showcasing the main features of the application:
+
 ### Login Page
 
 ![Login Page](screenshots/login-page.png)
